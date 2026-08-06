@@ -149,6 +149,8 @@ async function getInstallationToken(installationId) {
       installationId: installationId,
     });
 
+    console.log("TOKEN:", installationAuth.token); 
+
     return installationAuth.token;
   } catch (error) {
     console.error('❌ Error getting installation token:', error);

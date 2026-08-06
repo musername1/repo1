@@ -1,0 +1,15 @@
+[Goal]Webhook request path(only github)
+
+[i]Assumed server and localtunel is running...
+
+[assume] githubApp'in issue altina reaksiyon vermesi icin webhook'a bir mesaj yollar ve bu terminale "📨 Received webhook request" seklinde yansir.
+[assume] githubApp webhook request aldiktan sonra mesaj yollar ve bu terminale "🎯 Event: issues, Action: labeled" seklinde yansir.
+
+
+
+*set webhook
+*create issue
+*open issue
+*feedback to issue from GithubApp
+*
+
