@@ -1,7 +1,8 @@
 pull_request_rules:
-  - name: Test Rule
+  - name: Label trigger experiment
     conditions:
       - author = musername1
     actions:
-      comment:
-        message: "Mergify is working! 🎉"
+      label:
+        add:
+          - mergify-triggered
