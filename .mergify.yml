@@ -1,4 +1,11 @@
 pull_request_rules:
+  - name: TURE TURE experiment
+    conditions:
+      - author = musername1
+    actions:
+      comment:
+        message: "TRUE -> TRUE experiment trigerred"
+
   - name: Label trigger experiment
     conditions:
       - author = musername1
