@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: Label trigger experiment
     conditions:
-      - author = musername1 
+      - label = test
     actions:
       label:
         add:
