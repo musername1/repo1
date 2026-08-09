@@ -1,7 +1,15 @@
 pull_request_rules:
-  - name: TURE TURE experiment 
+  - name: TURE TURE experiment
     conditions:
       - author = musername1
     actions:
-      comment :
+      comment:
         message: "TRUE -> TRUE experiment trigerred"
+
+  - name: Label trigger experiment
+    conditions:
+      - author = musername1
+    actions:
+      label:
+        add:
+          - mergify-triggered
