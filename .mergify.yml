@@ -6,3 +6,4 @@ pull_request_rules:
       label:
         add:
           - mergify-triggered
+          - workflow-test
