@@ -1,5 +1,5 @@
 pull_request_rules:
-  - name: Label trigger experiment
+  - name: Clean Mergify Experiment
     conditions:
       - author = musername1
     actions:
