@@ -6,3 +6,10 @@ pull_request_rules:
       label:
         add:
           - mergify-triggered
+
+  - name: Edge Trigger Test
+    conditions:
+      - author = musername1
+    actions:
+      comment:
+        message: "EDGE-TRIGGER-TEST"
