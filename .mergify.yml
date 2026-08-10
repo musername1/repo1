@@ -1,8 +1,7 @@
 pull_request_rules:
-  - name: Label trigger experiment
+  - name: Edge trigger experiment
     conditions:
       - author = musername1
     actions:
-      label:
-        add:
-          - mergify-triggered
+      comment:
+        message: "EDGE-TRIGGER-TEST"
