@@ -4,4 +4,4 @@ pull_request_rules:
       - author = musername1
     actions:
       comment:
-        message: "CONFIG-CONTROLLED-ACTION"
+        message: "CONFIG-CONTROLLED-ACTION-NEW"
