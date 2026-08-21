@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: Fresh config test
     conditions:
-      - number = 43
+      - number = 44
     actions:
       label:
         add:
