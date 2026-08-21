@@ -5,4 +5,4 @@ pull_request_rules:
     actions:
       label:
         add:
-          - mergify-number-test
+          - main-config-test
