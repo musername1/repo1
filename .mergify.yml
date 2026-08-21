@@ -1,8 +1,8 @@
 pull_request_rules:
-  - name: Test - PR number
+  - name: Test - cross PR
     conditions:
-      - number = 41
+      - number = 42
     actions:
       label:
         add:
-          - number-41-test
+          - cross-pr-test
