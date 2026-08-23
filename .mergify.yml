@@ -1,8 +1,8 @@
 pull_request_rules:
-  - name: Idempotency-test
+  - name: Metadata-test
     conditions:
       - number = 44
     actions:
       label:
         add:
-          - idempotency-test
+          - metadata-test
