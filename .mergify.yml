@@ -1,8 +1,9 @@
 pull_request_rules:
-  - name: Metadata-test
+  - name: Disabled-rule-test
+    enabled: false
     conditions:
       - number = 44
     actions:
       label:
         add:
-          - metadata-test
+          - disabled-rule-test
