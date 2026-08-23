@@ -1,8 +1,8 @@
 pull_request_rules:
-  - name: Head config test
+  - name: Unmerged config execution test
     conditions:
       - number = 44
     actions:
       label:
         add:
-          - head-config-test
+          - unmerged-config-test
