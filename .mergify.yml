@@ -1,8 +1,8 @@
 pull_request_rules:
-  - name: Event-test
+  - name: Condition-change-test
     conditions:
       - number = 44
     actions:
       label:
         add:
-          - event-test
+          - condition-44-test
