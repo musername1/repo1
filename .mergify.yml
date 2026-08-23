@@ -1,1 +1,8 @@
-pull_request_rules: []
+pull_request_rules:
+  - name: Cross user config test
+    conditions:
+      - base = main
+    actions:
+      label:
+        add:
+          - cross-user-config-test
