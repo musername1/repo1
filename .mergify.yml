@@ -1,8 +1,1 @@
-pull_request_rules:
-  - name: Disabled-rule-test
-    conditions:
-      - number = 44
-    actions:
-      label:
-        add:
-          - disabled-rule-test
+pull_request_rules: []
