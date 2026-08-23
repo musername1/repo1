@@ -1,8 +1,8 @@
 pull_request_rules:
-  - name: Repeat-action-test
+  - name: Event-test
     conditions:
       - number = 44
     actions:
       label:
         add:
-          - repeat-test
+          - event-test
