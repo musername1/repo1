@@ -1,8 +1,8 @@
 pull_request_rules:
-  - name: Condition-change-test
+  - name: Idempotency-test
     conditions:
-      - number = 45
+      - number = 44
     actions:
       label:
         add:
-          - condition-45-test
+          - idempotency-test
