@@ -1,8 +1,8 @@
 pull_request_rules:
-  - name: Second user config test
+  - name: Unprivileged config path
     conditions:
       - base = main
     actions:
       label:
         add:
-          - second-user-config-test
+          - unprivileged-config-test
