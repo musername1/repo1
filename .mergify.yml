@@ -1,8 +1,7 @@
 pull_request_rules:
-  - name: Fresh config test
+  - name: Cross user update test
     conditions:
-      - number = 43
+      - base = main
+      - "#commits-behind > 0"
     actions:
-      label:
-        add:
-          - fresh-config-test
+      update:
