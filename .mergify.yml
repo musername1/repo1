@@ -1,8 +1,7 @@
 pull_request_rules:
-  - name: Test - add label
+  - name: Cross user update test
     conditions:
-      - base=main
+      - base = main
+      - "#commits-behind > 0"
     actions:
-      label:
-        add:
-          - mergify-test
+      update:
