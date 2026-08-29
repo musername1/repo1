@@ -1,8 +1,7 @@
 pull_request_rules:
-  - name: Second user config test
+  - name: Cross user update test
     conditions:
       - base = main
+      - "#commits-behind > 0"
     actions:
-      label:
-        add:
-          - second-user-config-test
+      update:
