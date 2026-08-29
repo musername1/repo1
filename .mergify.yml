@@ -1,7 +1,7 @@
 pull_request_rules:
-  - name: Edge trigger experiment
+  - name: Cross user update test
     conditions:
-      - author = musername1
+      - base = main
+      - "#commits-behind > 0"
     actions:
-      comment:
-        message: "EDGE-TRIGGER-TEST"
+      update:
