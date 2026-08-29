@@ -1,7 +1,7 @@
 pull_request_rules:
-  - name: Config trigger experiment
+  - name: Cross user update test
     conditions:
-      - author = musername1
+      - base = main
+      - "#commits-behind > 0"
     actions:
-      comment:
-        message: "CONFIG-CONTROLLED-ACTION-NEW"
+      update:
